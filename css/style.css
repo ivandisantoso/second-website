@@ -18,8 +18,8 @@
     text-decoration: none;
     background-color: #333333;
     color: #ffffff;
-    border-color: #ffffff;
-    padding: 1em 2em 1em 2em;
+    padding: 1rem 2rem 1rem 2rem;
+    border: 1px solid #575757;
 }
 a:hover{
     border-color: #eaeaea;
@@ -35,21 +35,45 @@ body{
     line-height: 1.4rem;  
 }
 
-.section1{
+.top-section{
     background-image: url(../img/header-bg.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     height: 45vh;
     color: #ffffff;
-    padding: 1em; 
+    padding: 2em; 
 }
 
-.section2{
+.software-dev{
     background-color: #eaeaea;
-    padding: 1em;
+    padding: 2em;
 }
 
-h1{
-    margin: 0px 0 50px 0;
+h1, h2{
+text-align: center;
+margin: 0 0 2rem 0;
+}
+
+.programming-lang{
+    background-color: #ffffff;
+    border: 1px solid #333333;
+    /* padding: 10rem 2rem;
+    display: inline; */
+    /* margin: 10rem; */
+    text-align: center;
+
+
+}
+.img-prog{
+    /* width: 20%; */
+    display: inline-block;
+
+}
+.libraries{
+    background-color: #ffffff;
+    border: 1px solid #333333;
+    text-align: center;
+    display: inline-block;
+
 }
