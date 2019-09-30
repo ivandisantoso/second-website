@@ -35,6 +35,8 @@ body{
     line-height: 1.4rem;  
 }
 
+
+
 .top-section{
     background-image: url(../img/header-bg.jpg);
     background-repeat: no-repeat;
@@ -44,6 +46,8 @@ body{
     color: #ffffff;
     padding: 2em; 
 }
+
+
 
 .software-dev{
     background-color: #eaeaea;
@@ -55,25 +59,55 @@ text-align: center;
 margin: 0 0 2rem 0;
 }
 
+
+.section3{
+    background-color: #333333;
+}
 .programming-lang{
-    background-color: #ffffff;
-    border: 1px solid #333333;
-    /* padding: 10rem 2rem;
-    display: inline; */
+    /* background-color: #ffffff; */
+    /* border: 1px solid #333333; */
+    /* padding: 10rem 2rem; */
+    display: inline-block; 
     /* margin: 10rem; */
     text-align: center;
-
-
+    background-color: #ffffff;
+    margin: 0 25% 0 25%;
 }
+
 .img-prog{
     /* width: 20%; */
-    display: inline-block;
-
+    /* display: inline-block; */
+    width: 20rem;
+    max-width: 0 auto;
 }
+
 .libraries{
-    background-color: #ffffff;
-    border: 1px solid #333333;
+    /* background-color: #ffffff; */
+    /* border: 1px solid #333333; */
     text-align: center;
-    display: inline-block;
-
+    display: inline;
+    display: inline-block; 
+    /* padding: 10rem 2rem; */
+    margin: 0 25% 0 25%;
+    background-color: #ffffff;
 }
+
+.img-lib{
+    width: 20rem;
+    max-width: 0 auto;
+}
+
+.prog-lib{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.bottom1{
+    display: inline;
+}
+.bottom{
+    display: inline;
+    padding-bottom: 25%;
+    background-color: #ffffff;
+}
+
