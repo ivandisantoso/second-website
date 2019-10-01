@@ -39,7 +39,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 45vh;
+    height: 25vh;
     color: #ffffff;
     padding: 2rem; 
 }
@@ -54,7 +54,8 @@ text-align: center;
 margin: 0 0 2rem 0;
 }
 
-h3{
+/* using display inline block */
+/* h3{
     padding: 2rem;
 }
 
@@ -76,7 +77,39 @@ h3{
 }
 .bottom-content {
     padding: 0 2rem 10rem 2rem;
+} */
+
+/* using grid */
+div{
+    display: grid;
 }
+
+img{
+    width: 100%;
+}
+.main-section{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.main-section1{
+    background-color: #ffffff;
+    margin: 0 0.125rem;
+}
+.main-heading{
+    padding: 1rem;
+    
+}
+.bottom-section{
+    grid-template-columns: 1fr 1fr;
+
+}
+.bottom-employers{
+    background-color: blueviolet;
+
+}
+.bottom-contact{
+    background-color:#ffffff;
+}
+
 
 
 
