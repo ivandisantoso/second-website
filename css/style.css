@@ -26,7 +26,6 @@ a:hover{
     color: #333333;
 }
     
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -35,8 +34,6 @@ body{
     line-height: 1.4rem;  
 }
 
-
-
 .top-section{
     background-image: url(../img/header-bg.jpg);
     background-repeat: no-repeat;
@@ -44,14 +41,12 @@ body{
     background-size: cover;
     height: 45vh;
     color: #ffffff;
-    padding: 2em; 
+    padding: 2rem; 
 }
-
-
 
 .software-dev{
     background-color: #eaeaea;
-    padding: 2em;
+    padding: 2rem;
 }
 
 h1, h2{
@@ -59,55 +54,31 @@ text-align: center;
 margin: 0 0 2rem 0;
 }
 
-
-.section3{
-    background-color: #333333;
+h3{
+    padding: 2rem;
 }
-.programming-lang{
-    /* background-color: #ffffff; */
-    /* border: 1px solid #333333; */
-    /* padding: 10rem 2rem; */
-    display: inline-block; 
-    /* margin: 10rem; */
-    text-align: center;
+
+.bottom{
+    display: inline-block;
     background-color: #ffffff;
-    margin: 0 25% 0 25%;
+    width: 20rem;  
 }
 
 .img-prog{
-    /* width: 20%; */
-    /* display: inline-block; */
     width: 20rem;
-    max-width: 0 auto;
-}
-
-.libraries{
-    /* background-color: #ffffff; */
-    /* border: 1px solid #333333; */
-    text-align: center;
-    display: inline;
-    display: inline-block; 
-    /* padding: 10rem 2rem; */
-    margin: 0 25% 0 25%;
-    background-color: #ffffff;
+    max-width: 0 100%;
 }
 
 .img-lib{
     width: 20rem;
-    max-width: 0 auto;
+    max-width: 0 100%;
+
+}
+.bottom-content {
+    padding: 0 2rem 10rem 2rem;
 }
 
-.prog-lib{
-    display: inline-block;
-    padding: 1rem;
-}
 
-.bottom1{
-    display: inline;
-}
-.bottom{
-    display: inline;
-    padding-bottom: 25%;
-    background-color: #ffffff;
-}
+
+
 
