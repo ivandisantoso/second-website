@@ -6,6 +6,7 @@
   padding:0;
 }
 
+
 /* a{
     text-decoration: none;
     background-color: #333333;
@@ -86,6 +87,7 @@ div{
 
 img{
     width: 100%;
+    min-width: 20rem;
 }
 .main-section{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -98,18 +100,35 @@ img{
     padding: 1rem;
     
 }
+.bottom-content{
+    margin: 0 0 1rem 0;
+}
 .bottom-section{
     grid-template-columns: 1fr 1fr;
-
+    
 }
 .bottom-employers{
-    background-color: blueviolet;
+    background-color:#2691d7;
+    padding: 2rem;
 
 }
 .bottom-contact{
     background-color:#ffffff;
+    padding: 2rem;
+
 }
 
+.footer{
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 1rem 0;
+
+}
+
+.footer-created{
+    color: #ffffff;
+}
 
 
 
