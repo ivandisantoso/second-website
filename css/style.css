@@ -4,6 +4,7 @@
 {
   margin:0;
   padding:0;
+  text-decoration: none;
 }
 
 
@@ -16,7 +17,7 @@
     
 } */
 .buttonReadMore{
-    text-decoration: none;
+    
     background-color: #333333;
     color: #ffffff;
     padding: 1rem 2rem 1rem 2rem;
@@ -92,6 +93,7 @@ img{
 .main-section{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+
 .main-section1{
     background-color: #ffffff;
     margin: 0 0.125rem;
@@ -115,20 +117,20 @@ img{
 .bottom-contact{
     background-color:#ffffff;
     padding: 2rem;
-
-}
-
-.footer{
-    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
-    background-color: #000000;
-    color: #ffffff;
-    margin: 1rem 0;
-
 }
 
 .footer-created{
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+    color: #ffffff;
+    margin: auto;
+    padding: 2rem 0;
+    background-color: #000000;
+}
+a:link{
     color: #ffffff;
 }
+
+
 
 
 
