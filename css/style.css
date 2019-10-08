@@ -16,12 +16,15 @@
     padding: 1em 2em 1em 2em;
     
 } */
-.buttonReadMore{
-    
-    background-color: #333333;
-    color: #ffffff;
-    padding: 1rem 2rem 1rem 2rem;
+.button-top{  
+    display: block;
+    width: 10%;
+    background: #333333;
     border: 1px solid #575757;
+    text-align: center;
+    color: white;
+    margin: 1rem auto;
+    padding: 1rem 1rem;
 }
 a:hover{
     border-color: #eaeaea;
@@ -44,6 +47,7 @@ body{
     height: 25vh;
     color: #ffffff;
     padding: 2rem; 
+    overflow: hidden;
 }
 
 .software-dev{
@@ -82,50 +86,129 @@ margin: 0 0 2rem 0;
 } */
 
 /* using grid */
-div{
+/* div{
     display: grid;
-}
+} */
 
 img{
     width: 100%;
+    max-width: 0 auto;
     min-width: 20rem;
 }
-.main-section{
+
+/* @media screen and (min-width:500px)
+{
+    .main-section{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+}
+@media screen and (min-width:768px){
+    .main-section{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width:60em){
+    .main-section{
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+}
+
+@media screen and (min-width:78em){
+    .main-section{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    }
+} */
+
+.main-section
+{
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+/* tablets 501px to 768px */
+@media(max-width: 768px)
+{
+    .main-section
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* smartphone >0px to 500px */
+@media(max-width: 500px)
+{
+    .main-section
+    {
+        grid-template-columns: 1fr;
+    }
 }
 
 .main-section1{
     background-color: #ffffff;
     margin: 0 0.125rem;
 }
-.main-heading{
+
+/* .main-heading{
     padding: 1rem;
-    
-}
-.bottom-content{
+} */
+
+/* .bottom-content{
     margin: 0 0 1rem 0;
+} */
+
+/* @media screen and (min-width: 20em){
+    .bottom-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
 }
+
+@media screen and (min-width: 40em){
+    .bottom-section{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+} */
+
 .bottom-section{
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    
+
 }
+
+@media(max-width: 500px)
+{
+    .bottom-section{
+        grid-template-columns: 1fr;
+    }
+}
+
 .bottom-employers{
     background-color:#2691d7;
     padding: 2rem;
 
 }
+
 .bottom-contact{
     background-color:#ffffff;
     padding: 2rem;
 }
 
-.footer-created{
-    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+.main-footer{
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr 1fr;
     color: #ffffff;
     margin: auto;
     padding: 2rem 0;
     background-color: #000000;
 }
+
 a:link{
     color: #ffffff;
 }
